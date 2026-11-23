@@ -1,0 +1,31 @@
+# Build intermediates (GBDK / SDCC)
+*.o
+*.lst
+*.map
+*.ihx
+*.sym
+*.noi
+*.cdb
+*.adb
+*.asm
+*.rel
+*.rst
+*.lk
+build/
+rom/*.map
+rom/*.noi
+rom/*.ihx
+
+# Emulator save / battery RAM
+*.sav
+*.srm
+*.rtc
+*.ram
+*.gb.ram
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
