@@ -159,6 +159,13 @@ body {
   color: var(--mist);
 }
 
+.rom-dl {
+  color: var(--acid);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-underline-offset: 3px;
+}
+
 .controls {
   border-top: 1px solid rgba(242, 245, 233, 0.12);
   padding-top: 1.25rem;
